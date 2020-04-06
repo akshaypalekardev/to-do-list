@@ -1,5 +1,4 @@
-# Name of the project
-> Additional information or tagline
+# To Do List
 
 A brief description of your project, what it is used for and how does life get
 awesome when someone starts to use it.
