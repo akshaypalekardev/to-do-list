@@ -1,3 +1,5 @@
+![Logo of the project](https://github.com/akshaypalekardev/to-do-list/blob/master/src/assets/images/tasker-logo.png)
+
 # To Do List
 
 A brief description of your project, what it is used for and how does life get
