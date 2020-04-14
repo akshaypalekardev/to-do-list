@@ -2,8 +2,7 @@
 
 # To Do List
 
-A brief description of your project, what it is used for and how does life get
-awesome when someone starts to use it.
+The To Do List is a simple web application that allows users to maintain a list of tasks.
 
 ## Installing / Getting started
 
@@ -11,12 +10,11 @@ A quick introduction of the minimal setup you need to get a hello world up &
 running.
 
 ```shell
-packagemanager install awesome-project
-awesome-project start
-awesome-project "Do something!"  # prints "Nah."
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install -g @angular/cli
 ```
-
-Here you should say what actually happens when you execute the code above.
 
 ### Initial Configuration
 
@@ -29,12 +27,10 @@ Here's a brief intro about what a developer must do in order to start developing
 the project further:
 
 ```shell
-git clone https://github.com/your/awesome-project.git
+git clone https://github.com/akshaypalekardev/to-do-list.git
 cd awesome-project/
-packagemanager install
+ng serve
 ```
-
-And state what happens step-by-step.
 
 ### Building
 

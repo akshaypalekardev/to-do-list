@@ -1,0 +1,14 @@
+<div class="container py-3 px-3 rounded">
+  <div class="inner-container overflow-auto rounded shadow">
+    <div class="card rounded-0" *ngFor="let task of taskList">
+      <div class="card-body">
+        {{task.todo}}
+        <span class="material-icons float-right delete-button" (click)="onDelete(this.task.id)">delete</span>
+      </div>
+    </div>
+    <figure *ngIf="taskList.length <= 0" class="figure">
+    <img src="../../../../assets/images/empty-list.jpg" alt="" class="mx-auto d-block empty-image">
+    <figcaption class="figure-caption text-center font-weight-bold">You have no tasks, enjoy your day !</figcaption>
+  </figure>
+  </div>
+</div>
